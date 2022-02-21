@@ -55,6 +55,9 @@
 # docker network create --driver overlay swarm
 # docker service create --name nginxreplicas --replicas 3-p 80:80 --network nginx
 
+# docker service update --network <rede> <nome>
+
+
 ## node 1
 # ssh -i "node1.pem" ec2-user@ec2-44-202-84-126.compute-1.amazonaws.com
 ## node 2
